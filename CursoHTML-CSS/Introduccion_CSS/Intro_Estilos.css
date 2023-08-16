@@ -1,0 +1,50 @@
+/* Definir estilos para colores */
+.colores {
+    color: crimson;
+}
+
+.color_hexadecimal {
+    color: #149911;
+}
+
+.color_rgb {
+    color: rgb(15, 115, 60);
+}
+
+.color_rgba {
+    color: rgba(0, 21,100, 0.5);
+}
+
+/* FONDOS */
+.fondo {
+    background-color: #3E6990;
+    background-image: url("");
+    background-position: center;
+}
+
+.fondo_interno {
+    background: url("Imagenes/Fondo_Interno.png");
+}
+
+/* TAMAÑOS */ 
+.ancho {
+    background-color: #149911;
+    width: 200px;
+}
+
+.alto {
+    background-color: #149911;
+    width: 200px;
+    height: 300px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: #3E6990;
+    border-width: 5px;
+    /* border-top: none; Para quitar el border superior. */ 
+    padding: 10px 20px;
+    /* padding: 10px 20px 30px 40px; */ 
+    margin: 10px 20px;
+    /* margin: 10px 20px 30px 40px; */ 
+}
